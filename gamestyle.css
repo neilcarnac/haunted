@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+#gametext{
+    width: 623px;
+    height: 83px;
+    top: 0px;
+    left: 0px;
+    background: url(game.png);
+}
+
+#stars:hover{
+
+    cursor: pointer;
+}
+#ellipse:hover{
+cursor: pointer;
+}
+
+
+
+
+@media(max-width:740px){
+    #gametext{
+        width: 623px;
+        height: 83px;
+        top: 202px;
+        left: 0px;
+        background: url(game.png);
+    }
+}

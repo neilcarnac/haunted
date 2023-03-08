@@ -1,0 +1,178 @@
+body {
+    background-color: #000000;
+}
+
+#navbar {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    opacity: 0px;
+}
+
+#bignotch {
+    position: absolute;
+    width: 302.71px;
+    height: 60px;
+    left: 40%;
+    top: 30px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+    transition: 3000ms;
+}
+
+#bignotch:hover {
+    /* background-color: #500505; */
+    cursor: pointer;
+}
+
+#smallnotch {
+    position: absolute;
+    width: 70.38px;
+    height: 36.39px;
+    left: 202px;
+    top: 10px;
+    transition: 2000ms;
+
+    background: #000000;
+    border-radius: 40px;
+}
+
+#smallnotch:hover {
+    overflow: hidden;
+    width: 120.38px;
+    left: 150px;
+}
+
+
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 1083px;
+    left: 0px;
+    top: 120px;
+    background: #000000;
+    mix-blend-mode: overlay;
+}
+
+#clown {
+
+    position: absolute;
+    width: 100%;
+    height: 1083px;
+    left: 0px;
+    top: 120px;
+
+    background: url(clown.png);
+}
+
+#eyeone {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 454px;
+    top: 501px;
+    opacity: 0%;
+    background: #500505;
+    filter: blur(22.5px);
+    transition: 1500ms;
+}
+
+#eyeone:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#eyetwo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 826px;
+    top: 569px;
+    opacity: 0%;
+    background: #500505;
+    filter: blur(22.5px);
+    transition: 1500ms;
+
+}
+
+#eyetwo:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#tetbox {
+    box-sizing: border-box;
+    opacity: 0;
+    position: absolute;
+    width: 265px;
+    height: 193px;
+    left: 1142px;
+    top: 696px;
+    transition: 4000ms;
+    border: 2px solid #5c0000;
+}
+#tetbox:hover{
+    opacity: 100%;
+}
+
+#line {
+    position: absolute;
+    width: 198px;
+    height: 18px;
+    left: 5px;
+    top: -10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #6f0606;
+}
+
+
+
+@media(max-width:740px) {
+    #navbar {
+        width: 405%;
+    }
+
+    #clown {
+        width: 405%;
+        height: 400%;
+    }
+
+    #overlay {
+        width: 405%;
+        height: 400%;
+    }
+
+    #eyeone {
+        width: 200px;
+        height: 200px;
+        left: 691px;
+        top: 1188px;
+        opacity: 100%;
+        border-radius: 1000px;
+        filter: blur(82.5px);
+    }
+
+    #eyetwo {
+        opacity: 100%;
+        width: 200px;
+        height: 200px;
+        border-radius: 1000px;
+        filter: blur(82.5px);
+        left: 1247px;
+        top: 1288px;
+
+    }
+}
